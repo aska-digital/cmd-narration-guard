@@ -1,0 +1,9 @@
+{
+	"name": "cmd-narration-guard",
+	"version": "0.1.0",
+	"description": "Warns when an agent turn narrates executed work (commits, test counts, read-backs) while containing zero tool calls. Fabricated-pipeline turns self-reinforce once they enter the transcript.",
+	"license": "MIT",
+	"commandcode": {
+		"mods": ["./index.ts"]
+	}
+}
